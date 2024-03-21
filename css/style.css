@@ -1,3 +1,59 @@
+header{
+    height: 100px;
+}
+
+.container-60{
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    border-style: none;
+}
+
+.col-20{
+    display: flex;
+    width: 20%;
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+.col-60{
+    display: flex;
+    width: 60%;
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+.bg-aqua{
+    background-color: aqua;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+.height-70{
+    height: 70px;
+}
+
+.align-L{
+    justify-content: left;
+    align-items: center;
+}
+
+.align-C{
+    justify-content: center;
+    align-items: center;
+}
+
+.align-R{
+    justify-content: right;
+    align-items: center;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;

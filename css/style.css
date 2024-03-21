@@ -2,12 +2,27 @@ header{
     height: 100px;
 }
 
-.container-60{
-    display: flex;
+/* Container list*/
+
+.container-80{
     max-width: 80%;
     margin: 0 auto;
     border-style: none;
 }
+
+.container-40{
+    max-width: 40%;
+    margin: 0 auto;
+    border-style: none;
+}
+
+/*row*/
+
+.row{
+    display: flex;
+}
+
+/*column list*/
 
 .col-20{
     display: flex;
@@ -23,6 +38,15 @@ header{
     border-style: dashed;
 }
 
+.col-100{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+/*background color list*/
+
 .bg-aqua{
     background-color: aqua;
 }
@@ -31,6 +55,16 @@ header{
     background-color: orange;
 }
 
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+/*sizing list*/
+
 .padding-20{
     padding: 20px;
 }
@@ -38,6 +72,12 @@ header{
 .height-70{
     height: 70px;
 }
+
+.height-400{
+    height: 400px;
+}
+
+/*align list*/
 
 .align-L{
     justify-content: left;
@@ -53,6 +93,8 @@ header{
     justify-content: right;
     align-items: center;
 }
+
+/*strong*/
 
 *{
     box-sizing: border-box;

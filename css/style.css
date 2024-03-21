@@ -39,6 +39,11 @@ header{
     width: 40%;
 }
 
+.col-50{
+    display: flex;
+    width: 60%;
+}
+
 .col-60{
     display: flex;
     width: 60%;

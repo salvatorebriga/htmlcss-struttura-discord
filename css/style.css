@@ -24,6 +24,11 @@ header{
 
 /*column list*/
 
+.col-15{
+    display: flex;
+    width: 15%;
+}
+
 .col-20{
     display: flex;
     width: 20%;
@@ -70,6 +75,10 @@ header{
     background-color: green;
 }
 
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
 /*sizing list*/
 
 .padding-20{
@@ -88,10 +97,16 @@ header{
     height: 700px;
 }
 
-.border-style{
+.border-style-black{
     border: 2.5px solid black;
     border-style: dashed;
 }
+
+.border-style-white{
+    border: 2.5px solid rgb(255, 255, 255);
+    border-style: dashed;
+}
+
 
 /*align list*/
 

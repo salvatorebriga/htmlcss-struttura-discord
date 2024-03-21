@@ -66,6 +66,10 @@ header{
     background-color: lightgrey;
 }
 
+.bg-green{
+    background-color: green;
+}
+
 /*sizing list*/
 
 .padding-20{
@@ -78,6 +82,10 @@ header{
 
 .height-400{
     height: 400px;
+}
+
+.height-700{
+    height: 700px;
 }
 
 .border-style{
